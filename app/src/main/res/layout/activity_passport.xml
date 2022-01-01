@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Passport_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txtViewNID"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/background"
+                    android:gravity="center"
+                    android:elevation="10dp"
+                    android:text="Passport Info"
+                    android:textColor="@color/white"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/txtViewAppliname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="Applicant's Name"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/peditTxtAppliFname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="First name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/peditTxtAppliLname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Last name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="NID Number"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/peditTxtNID"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="000000000"
+                    android:inputType="number"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtViewFathername"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Father's Name"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/peditTxtFatherFname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="First name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/peditTxtFatherLname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Last name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtViewMothername"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Mother's Name"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/peditTxtMotherFname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="First name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/peditTxtMotherLname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Last name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtViewBday"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Applicant's Birth Date"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/peditTxtBirthDate"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="YYYY/MM/DD"
+                    android:inputType="date"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtViewAddress"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Address"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/peditTxtPermaadd"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Permanent address"
+                    android:inputType="textPostalAddress"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/peditTxtPresadd"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Present address"
+                    android:inputType="textPostalAddress"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/peditTxtPostal"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Postal Code"
+                    android:inputType="number"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/peditTxtCity"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="City"
+                    android:inputType="textPersonName"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/peditTxtState"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="State"
+                    android:inputType="textPersonName"
+                    android:textStyle="italic" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:id="@+id/btnConfirm"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/gradient"
+                    android:text="Confirm"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnpasscancel"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/gradient"
+                    android:text="Cancel"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

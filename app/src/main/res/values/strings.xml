@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Smart City</string>
+    <string name="col1">Name</string>
+    <string name="col2">Contact</string>
+    <string name="col3">Address</string>
+    <string name="row11">Kotowali Thana</string>
+    <string name="row12">01760886380</string>
+    <string name="row13">Kotowali</string>
+    <string name="row21">Panchlaish Thana</string>
+    <string name="row22">01866331540</string>
+    <string name="row23">Panchlaish</string>
+    <string name="row31">Chawkbazar Thana</string>
+    <string name="row32">01866331226</string>
+    <string name="row33">Chawkbazar</string>
+    <string name="title_activity_maps_location">Map</string>
+    <string name="title_activity_maps_air_check">Map</string>
+</resources>

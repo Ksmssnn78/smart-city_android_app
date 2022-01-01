@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "950730785811",
+    "project_id": "smartcityapp-69ada",
+    "storage_bucket": "smartcityapp-69ada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950730785811:android:c57dee1d4d49957d55abe6",
+        "android_client_info": {
+          "package_name": "com.example.smartcityapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950730785811-95rpmo54fbbsohkao72dg5d91llo0rf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNuh2UWDi1Q_j-xhwdnYX0rN3qlyjtlOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950730785811-95rpmo54fbbsohkao72dg5d91llo0rf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

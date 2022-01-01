@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txtViewNID"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10sp"
+                    android:background="@drawable/background"
+                    android:gravity="center"
+                    android:elevation="10dp"
+                    android:text="National ID Card"
+                    android:textColor="@color/white"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/txtViewAppliname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Applicant's Name"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTxtAppliFname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="First name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editTxtAppliLname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Last name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtViewFathername"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Father's Name"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTxtFatherFname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="First name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editTxtFatherLname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Last name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtViewMothername"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Mother's Name"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTxtMotherFname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="First name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editTxtMotherLname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Last name"
+                    android:inputType="textPersonName"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtViewBday"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Applicant's Birth Date"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTxtBirthDate"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="YYYY/MM/DD"
+                    android:inputType="date"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Birth Certificate No"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTxtBirthCerti"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="ex : 0000000000"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Gender"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editTxtGender"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtViewAddress"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:layout_marginTop="10dp"
+                    android:text="Address"
+                    android:textColor="@color/appcolor"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTxtPermaadd"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Permanent address"
+                    android:inputType="textPostalAddress"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editTxtPresadd"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Present address"
+                    android:inputType="textPostalAddress"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editTxtPostal"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="Postal Code"
+                    android:inputType="textPersonName"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editTxtCity"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="City"
+                    android:inputType="textPersonName"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editTxtState"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:backgroundTint="@color/teal_700"
+                    android:ems="10"
+                    android:hint="State"
+                    android:inputType="textPersonName"
+                    android:textStyle="italic" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10sp" />
+
+                <Button
+                    android:id="@+id/btnConfirm"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10sp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/gradient"
+                    android:text="Confirm"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnnidcancel"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/gradient"
+                    android:text="Cancel"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

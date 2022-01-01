@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PoliceStation_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loginbtn"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="82dp"
+            android:background="@drawable/background"
+            android:elevation="5dp"
+            android:padding="15dp"
+            android:text="PoliceStation Details"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="15dp"
+            android:background="@drawable/background"
+            android:elevation="5dp"
+            android:padding="10dp">
+
+
+            <TableRow android:layout_height="35dp">
+
+                <TextView
+                    android:layout_width="36dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/col1"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/col2"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </TableRow>
+            <!--Table Data-->
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Txtviewnam1"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btncnt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.3"
+                    android:background="@drawable/bkashbtn"
+                    android:onClick="make_call"
+                    android:textColor="@color/white" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Txtviewnam2"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btncnt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@drawable/bkashbtn"
+                    android:onClick="make_call"
+                    android:textColor="@color/white" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/Txtviewnam3"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btncnt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@drawable/bkashbtn"
+                    android:onClick="make_call"
+                    android:textColor="@color/white" />
+
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
